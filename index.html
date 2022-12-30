@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Andrezza Nascimento" />
+    <meta name="keywords" content="Moda plus zise,Mundo Plus Size, Tendências Plus Size, Plus Size">
+    <meta name="description" content="Vestidos modas plus zise,de fabricação própria" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+
+    <title>Modas Plus Zise</title>
+</head>
+
+
+<body link="#9C27B0" alink="#9C27B0" vlink="#9C27B0">
+
+    <nav>
+        <a href="#secao-sobre"> SOBRE </a>
+        <a href="#secao-modelos"> MODELOS </a>
+        <a href="#secao-agendamentos"> AGENDAMENTOS </a>
+    </nav>
+
+    <header>
+        <img src="img/banner.png" alt="banner contendo a logo no meio desenhado modelo plus zise com o nome da autora" />
+    </header>
+
+    <article>
+        <h1 id="secao-sobre">
+
+            <h1> Andrezza Nascimento - Moda Plus Size</h1>
+
+            <p> Você tem procurado roupas que valorizam suas curvas e te deixam mais bonita? Aqui, na <strong>Andrezza Nascimento Moda Plus Size</strong>, você encontra milhares de itens que vão do G ao XLG e dos tamanhos 46 ao 60. Escolha o estilo que mais
+                combina com você: <em>clássico, casual,
+                            romântico ou confortável.</em></p>
+
+            <p>Além disso, o Mundo Plus Size está sempre cheio de <strong>Novidades e
+                            Ofertas</strong> e roupas que seguem as principais tendências de moda. Itens cheios de estilos, nas mais variadas cores, estampas e modelagens. Seja ousada e livre para usar a roupa que você quiser, desde o <u>office look</u>                até o <u>happy hour</u>. No Mundo Plus Size, você encontra moda para todas as ocasiões.<i>Se joga!</i></p>
+    </article>
+
+    <section id="secao-modelos" color="#e47267">
+
+        <h2>Modelos</h2>
+
+
+        <p>São considerados os mais ideais, pois garantem temperatura e umidade à planta escolhida e oferecem um ambiente muito semelhante ao solo.</p>
+
+
+        <div id="container">
+            <div class="card">
+                <img src="img/moda1.png" alt="Modelo com vestido siganinho estampado com cores na borda embaixo marrom e no meio estampas amarelo e m=vermelho ">
+                <div class="card-conteúdo">
+                    <h3>Casual</h3>
+                    <p>R$59,99</p>
+                </div>
+            </div><br>
+            <div class="card">
+                <img src="img/moda2.png" alt="Vestido socil da cor bege curto ate o joelho" />
+                <div class="card-conteúdo">
+                    <h3>Clássicos</h3>
+                    <p>R$89,99</p>
+                </div>
+            </div><br>
+            <div class="card">
+                <img src="img/moda3.png" alt="Vestido vermelho todo estampado com um formato de calda atrás" />
+                <div class="card-conteúdo">
+                    <h3>Romântico</h3>
+                    <p>R$79,99</p>
+                </div>
+            </div><br>
+            <div class="card">
+                <img src="img/moda4.png" alt="Vestido preto de alça curta" />
+                <div class="card-conteúdo">
+                    <h3>Confortável</h3>
+                    <p>R$69,99</p>
+                </div><br>
+            </div>
+        </div>
+    </section><br>
+
+
+    <section id="secao-agendamentos" color="#e47267" />
+
+    <h1> Agendamentos</h1>
+
+    <p>Agende para mais informações e faça o pedido do nosso <b>catálogo</b>,assim como preços e tamanhos disponíveis.
+    </p>
+
+
+    <form name="" method="" action="">
+        <label for="nome" size="3">Nome:</label><br />
+        <input id="nome" type="text" name="nome" size="80" placeholder="Digite seu nome completo" /><br />
+
+        <label for="email" size="3">E-mail:</label><br />
+        <input id="email" type="email" name="email" size="80" placeholder="nomeusuario@email.com" /><br />
+
+        <label for="endereco" size="3">Endereço:</label><br />
+        <input id="endereco" type="text" name="endereco" size="80" placeholder="Digite o endereço completo" /><br />
+
+        <label for="celular" size="3">Celular:</label><br />
+        <input id="celular" type="tel" name="celular" size="80" placeholder="(99)99999-9999" / pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$"><br/>
+
+        <label for="quantidade" size="3">Quantidade:</label><br />
+        <input id="quantidade" type="number" name="quantidade" placeholder="somente números" min="1" max="20" step="1" /> <br />
+
+        <label for="modelos" size="3">Vestidos:</label>
+        <select id="modelos" name="modelos">
+                    <option value="">Selecione</option>
+                    <option value="classicosconjuntos">Clássicos</option>
+                    <option value="casual">Casual</option>
+                    <option value="curtos">Curtos</option>
+                    <option value="longos">Longos</option>
+                </select><br />
+
+        <fieldset>
+            <legend size="3">Forma Pagamento:</legend>
+            <input id="dinh" type="radio" name="pagamento" value="dinh" /> <label for="dinh">Dinheiro</label><br />
+            <input id="cart" type="radio" name="pagamento" value="cart" /> <label for="cart">Cartão</label>
+        </fieldset>
+
+        <fieldset>
+            <legend size="3">Estilos:</legend>
+            <input id="estam" type="checkbox" name="modelos" value="estampados" /> <label for="estam">Estampados</label><br />
+            <input id="class" type="checkbox" name="modelos" value="classicos" /> <label for="class">Clássicos
+                        </alabel><br />
+                        <input id="casmad" type="checkbox" name="modelos" value="casamentoemadrinha" /> <label
+                            for="casmad">Casamento/Madrinha</label><br />
+            <input id="soci" type="checkbox" name="modelos" value="social" /> <label for="soci">Social</label><br />
+        </fieldset>
+
+        <label for="msgm" size="3">Mensagem:</label><br />
+        <textarea id="msgm" cols="80" rows="4"></textarea>
+
+        <div id="botoes-form">
+            <input type="submit" name="btn-agendar" value="AGENDAR" />
+            <input type="reset" name="btn-cancelar" value="CANCELAR" />
+        </div>
+    </form>
+    </section>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://www.instagram.com/andrezzanf" target="_blank">ANDREZZA
+                        NASCIMENTO</a> - 2022</p>
+    </footer>
+
+</body>
+
+</html>
